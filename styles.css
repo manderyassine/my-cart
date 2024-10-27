@@ -1,0 +1,45 @@
+
+
+/* Cart Items */
+.cart-items {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Product Image */
+.product-image {
+    object-fit: cover;
+}
+
+/* Quantity Controls */
+.quantity-controls .decrement-btn,
+.quantity-controls .increment-btn {
+    background-color: #f3f4f6; /* Light gray background */
+    transition: background-color 0.2s ease;
+}
+
+.quantity-controls .decrement-btn:hover,
+.quantity-controls .increment-btn:hover {
+    background-color: #e5e7eb; /* Slightly darker gray on hover */
+}
+
+/* Like Button */
+.like-btn.liked {
+    color: #ff4500; /* Different color for liked state */
+    transition: color 0.2s ease;
+}
+
+/* Delete Button */
+.delete-btn {
+    font-size: 0.875rem;
+    transition: color 0.2s ease;
+}
+
+/* Total Section */
+.total-section .total-text {
+    margin-right: 0.5rem;
+}
+
+.total-section .total-price {
+    color: #10b981; /* Green color for total price */
+}
